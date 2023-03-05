@@ -29,5 +29,21 @@ int main()
 }
 ```
 
+## Grid and Block
+
+**Grid** is a collection of all the threads launch for a kernel.
+
+**Block**: Threads in a grid is organized in to groups called thread blocks.
+
+![grad and block](images/IMG_0116.PNG)
+
+```cpp
+kernel_name <<< number_of_blocks, thread_per_block >>> (arguments)
+```
+same as
+```cpp
+kernel_name <<< grid, block >>> (arguments)
+```
+
 
 
