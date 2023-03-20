@@ -74,3 +74,10 @@ int main()
     return 0;
 }
 ```
+
+blockIdx
+
+![blockidx](./images/IMG_0371.PNG)
+
+**blockDim** variable consist number of threads in each dimension of a thread block.
+
